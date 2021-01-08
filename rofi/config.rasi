@@ -1,0 +1,69 @@
+configuration {
+    modi: "drun";
+    font: "Fira Code Nerd Font 10";
+    lines: 8;
+    location: 2;
+    yoffset: 30;
+    show-icons: true;
+    ssh-client: "openssh";
+    icon-theme: "Ultimate-Plata-Suru++ Aspromauros-Icons";
+    line-padding: 15;
+    padding: 0;
+    hide-scrollbar: true;
+    fixedo-num-lines: false;
+    width: 40;
+}
+
+* {
+    background-color: #0E0E0E;
+    color: #7D7D7D;
+}
+
+window {
+    background-color: #0E0E0E;
+    color: #FFFFFF;
+}
+
+mainbox {
+    
+}
+
+listview {
+
+}
+
+element {
+    padding: 15px;
+    margin: 0;
+    border: 1px 0 0 0;
+    border-color: #1A1A1A;
+    spacing: 15px;
+}
+
+element-icon {
+    size: 20px;
+}
+
+element selected {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+}
+
+inputbar {
+    spacing: 0px ;
+}
+
+entry {
+    padding: 15px;
+    text-color: #FFFFFF;
+}
+
+prompt {
+    padding: 15px;
+    border: 0 1px 0 0;
+    border-color: #1A1A1A;
+}
+
+textbox-prompt-colon {
+
+}
