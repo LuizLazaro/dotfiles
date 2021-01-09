@@ -30,6 +30,9 @@ super + {comma, period}
 super + slash
     notify-send -u low "$(mpc -f "%title%" current)" "by $(mpc -f "%artist%" current)\non $(mpc -f "%album%" current) (#$(mpc -f "%track%" current))\n$(mpc -f "%originaldate%" current)"
 
+# Screenshot
+Print
+		gnome-screenshot
 
 #
 # bspwm hotkeys

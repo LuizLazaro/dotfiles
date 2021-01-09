@@ -12,6 +12,7 @@ set font "Fira Code Nerd Font normal 10"
 set page-padding 0
 set statusbar-basename true
 set statusbar-home-tilde true
+set guioptions none
 
 
 #

@@ -3,4 +3,4 @@
 console.log("1.  Push my dotfiles on Github")
 console.log("2.  Post on r/unixporn")
 console.log("3.  Finish \"Código Limpo\"") 
-console.log("4.  Um tapa na goxxtosa!!! Yes, baby. Thank you!")
+console.log("4.  Um tapa na goxxtosa!!!")

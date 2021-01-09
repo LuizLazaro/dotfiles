@@ -24,14 +24,6 @@ window {
     color: #FFFFFF;
 }
 
-mainbox {
-    
-}
-
-listview {
-
-}
-
 element {
     padding: 15px;
     margin: 0;
@@ -62,8 +54,4 @@ prompt {
     padding: 15px;
     border: 0 1px 0 0;
     border-color: #1A1A1A;
-}
-
-textbox-prompt-colon {
-
 }
