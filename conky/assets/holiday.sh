@@ -1,13 +1,12 @@
 #!/bin/bash
 
-holiday=`gcal -qbr -n | tail -1`
+get_holiday=`gcal -qbr -n .- | grep -w "0 days"`
+holiday_name=${get_holiday%(BR)*}
+holiday_date=`gcal -qbr -n .- | grep -woh "0 days"`
 
-remaining_days=`gcal -qbr -n | tail -1 | grep -oh "0 days"`
-
-if [ "$remaining_days" != "0 days" ];
+if [ "$holiday_date" == "10 days" ];
 then 
-    echo "Ordinary day"
+    echo $holiday_name
 else
-    today_holiday=${holiday%(BR)*}
-    echo $today_holiday
+    echo "Ordinary day"
 fi

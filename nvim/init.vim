@@ -60,6 +60,7 @@ nnoremap <c-s> :w<CR>
 nnoremap <c-p> :Files<CR>
 nnoremap <c-f> :Ag<CR>
 nnoremap <c-b> :NERDTreeToggle<CR>
+"nnoremap <c-w> :bd<CR>
 
 inoremap <c-b> <ESC>:NERDTreeToggle<CR>
 inoremap <c-s> <ESC>:w<CR>a
