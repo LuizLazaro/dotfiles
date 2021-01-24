@@ -38,7 +38,7 @@ set confirm													"confirm quit w/ save
 set mouse=a													"mouse support
 set ts=2 														"tab size
 set softtabstop=0 noexpandtab
-set shiftwidth=4
+set shiftwidth=2
 set updatetime=300
 set shortmess+=c
 set scs 														"search automatic case sensitive
