@@ -1,6 +1,5 @@
 #! /bin/sh
 
-
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor -d I II III IV V
@@ -16,7 +15,6 @@ bspc config gapless_monocle      true
 bspc rule -a Chromium desktop='^1' follow=on
 bspc rule -a Pick-colour-picker state=floating
 bspc rule -a Zathura state=floating
-bspc rule -a Anki state=floating
 bspc rule -a Lxappearance state=floating
 
 # My conf
