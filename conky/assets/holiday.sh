@@ -1,12 +1,17 @@
 #!/bin/bash
 
-get_holiday=`gcal -qbr -n .- | grep -w "0 days"`
-holiday_name=${get_holiday%(BR)*}
-holiday_date=`gcal -qbr -n .- | grep -woh "0 days"`
+readonly day=`date +%-d`
+readonly string=`gcal -qbr -n .| grep -E '(.+) \(BR\).+<[ ]?(.{1,2})[thstnd]{2}>'`
+readonly regexp="(.+) \(BR\).+<[ ]?(.{1,2})[thsnd]{2}>"
 
-if [ "$holiday_date" == "10 days" ];
-then 
-    echo $holiday_name
+[[ $string =~ $regexp ]]
+
+readonly holiday_name="${BASH_REMATCH[1]}"
+readonly holiday_day="${BASH_REMATCH[2]}"
+
+if [ "$holiday_day" == "$day" ];
+then
+        echo "$holiday_name"
 else
-    echo "Ordinary day"
+  echo "ordinary day"
 fi
