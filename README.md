@@ -1,3 +1,4 @@
+<br>
 <p align="center">
 My dotfiles :)
 </p>
@@ -16,7 +17,6 @@ My dotfiles :)
 |-|-|-|
 
 </div>
-<br>
 
 # Installation
 
