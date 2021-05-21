@@ -1,3 +1,4 @@
+<br>
 <p align="center">
 My dotfiles :)
 </p>
@@ -12,19 +13,18 @@ My dotfiles :)
 <br>
 <div align="center">
 
-|:black_heart:|[Recomended Resizable Wallpapers](https://www.figma.com/file/mNR4G0Y7PjVfmSoWmKOOCu/Wallpapers?node-id=0%3A1)|:black_heart:|
+|:black_heart:|[Recommended Resizable Wallpapers](https://www.figma.com/file/mNR4G0Y7PjVfmSoWmKOOCu/Wallpapers?node-id=0%3A1)|:black_heart:|
 |-|-|-|
 
 </div>
-<br>
 
 # Installation
 
 **1. Install** [Stow](https://github.com/aspiers/stow/).
 
-- On Arch / Arch-based : `sudo pacman -S stow`
-- On Debian / Ubuntu: `sudo apt install stow`
-
+```bash
+sudo pacman -S stow
+```
 **2. Clone the repo**
 
 ```bash
