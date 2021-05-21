@@ -1,0 +1,12 @@
+* {
+  background: #111111;
+  background-alt: #1A1A1A;
+  foreground: #DDDDDD;
+  foreground-alt: #CCCCCC;
+  accent: #B68C2F;
+  urgent: #DA4453FF;
+  prompt: #838383;
+  transparency-full: #00000000;
+  outer-border: #292929;
+	placeholder: #555555;
+}

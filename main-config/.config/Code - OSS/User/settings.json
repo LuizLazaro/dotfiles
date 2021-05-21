@@ -1,0 +1,46 @@
+{
+    "editor.fontFamily": "FiraCode Nerd Font",
+    "editor.fontSize": 15,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 22,
+    "editor.wordWrap": "off",
+    "editor.tabSize": 2,
+    "editor.renderLineHighlight": "all",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": false,
+    "editor.renderIndentGuides": false,
+    "editor.minimap.enabled": true,
+    
+    "explorer.sortOrder": "type",
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    
+    "workbench.activityBar.visible": true,
+    "workbench.editor.highlightModifiedTabs": false,
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": true,
+    "workbench.iconTheme": "city-lights-icons-vsc",
+    
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontWeightBold": "500",
+
+    "window.menuBarVisibility": "toggle",
+
+    "breadcrumbs.enabled": false,
+
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+
+    "city-lights-icons-vsc.hidesExplorerArrows": true,
+    "tabnine.experimentalAutoImports": true,
+    "workbench.colorTheme": "Origamid",
+    
+    "emmet.syntaxProfiles": {"javascript": "jsx"},
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
+    
+}

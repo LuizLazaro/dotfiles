@@ -1,0 +1,61 @@
+# Font configuration (changes require restart)
+font:
+  # The size to use.
+  size: 9
+  # The normal (roman) font face to use.
+  normal:
+    family: FiraCode Nerd Font 
+    # Style can be specified to pick a specific face.
+    style: Regular
+
+  # The bold font face
+  bold:
+    family: FiraCode Nerd Font
+    # Style can be specified to pick a specific face.
+    style: Bold
+
+    # The italic font face
+  italic:
+    family: FiraCode Nerd Font
+    # Style can be specified to pick a specific face.
+    style: Italic
+  offset:
+    y: 5
+window:
+  padding:
+    x: 50
+    y: 50 
+cursor:
+  style:
+    shape: Beam
+    blinking: Always
+  blink_interval: 500
+  unfocused_hollow: true
+# Colors (Horizon Dark)
+colors:
+  # Primary colors
+  primary:
+    background: '0x111111'
+    foreground: '0xe0e0e0'
+
+  # Normal colors
+  normal:
+    black: '0x111111'
+    red: '0xc94b4b'
+    green: '0x4bc98a'
+    yellow: '0xbac94b'
+    blue: '0x4bc98a'
+    magenta: '0x4bc98a'
+    cyan: '0x4bc98a'
+    white: '0xd5d8da'
+
+  # Bright colors
+  bright:
+    black: '0x222222'
+    red: '0xc94b4b'
+    green: '0xbac94b'
+    yellow: '0x4bc98a'
+    blue: '0x4bc98a'
+    magenta: '0x4bc98a'
+    cyan: '0x4bc98a'
+    white: '0xd5d8da'

@@ -1,0 +1,98 @@
+configuration {
+  modi: "drun,ssh,combi,window";
+  font: "FiraCode Nerd Font 10";
+  combi-modi: "window,drun,ssh";
+  lines: 10;
+  columns: 1;
+  location: 1;
+  yoffset: 35;
+  xoffset: 10;
+  show-icons: true;
+  icon-theme: "Ultimate-Plata-Suru++ Aspromauros-Icons";
+  fixed-num-lines: false;
+  display-drun: "";
+	sidebar-mode: false;
+  disable-history: true;
+}
+
+@import "style/colors.rasi"
+
+* {
+  background-color: #00000000;
+  spacing: 0;
+}
+
+window {
+  border: 1px;
+  border-color: @outer-border;
+  padding: 0px;
+  transparency: "real";
+  width: 420px;
+}
+
+prompt {
+  text-color: @foreground;
+  background-color: @background;
+  padding: 20px 25px 20px 30px;
+  margin: 0;
+  border: 0;
+}
+
+entry {
+  background-color: @background;
+  placeholder-color: @foreground;
+  text-color: @foreground-alt;
+  padding: 20px 30px 20px 0px;
+  expand: true;
+  placeholder: "Search Applications";
+  blink: true;
+  border: 0 0 1px 0;
+  border-color: @background-alt;
+}
+
+inputbar {
+  children: [prompt,entry];
+
+}
+
+textbox {
+  border: 0;
+  padding: 0px;
+}
+
+listview {
+  cycle: false;
+  margin: 0;
+  scrollbar: false;
+  background-color: @background;
+  padding: 0px;
+  dynamic: true;
+  layout: vertical;
+}
+
+element {
+  border: 1px 0 0 0;
+  border-color: @background-alt;
+  highlight: bold;
+  padding: 20px 30px;
+  margin: 0;
+  text-color: @foreground;
+  horizontal-align: 0;
+  vertical-align: 0;
+}
+
+element-text {
+  expand: true;
+  horizontal-align: 0;
+  vertical-align: 0;
+}
+
+element selected {
+  text-color: @accent;
+}
+
+element-icon { 
+  size: 12px;
+  border: 0;
+  margin: 0 15px 2px 0;
+}

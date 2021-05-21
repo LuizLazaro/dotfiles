@@ -1,0 +1,5 @@
+[user]
+	name = Luiz Lázaro
+	email = luiz97rj@gmail.com
+[credential "https://github.com"]
+	helper = !gh auth git-credential
